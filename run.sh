@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo "---------- xcode ----------"
 
 ! [ -d "$(xcode-select -p)" ] && xcode-select --install
