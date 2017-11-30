@@ -1,0 +1,23 @@
+[user]
+	name = Forest Loren Toney III
+  email = foresttoney@gmail.com
+
+[alias]
+  br = branch
+  ci = commit
+  co = checkout
+  st = status
+  hist = ! git log --color --date=short --oneline --pretty=format:\"%C(red)%h%Creset %C(yellow)%ad%Creset | %s%d %C(bold blue)%an%Creset\" | emojify | less -R
+
+[color]
+  ui = on
+
+[core]
+  editor = /usr/bin/vim
+  pager = "diff-so-fancy | less --tabs=4 -RFX"
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+  newHighlight = green bold 22
